@@ -47,9 +47,11 @@ function App() {
       <Imagen
       src={ImagenCripto}
       alt='Imagenes Criptomonedas'/>
+    <div>
     <Heading>Cotiza Criptomonedas al instante</Heading>
     
     <Formulario/>
+    </div>
     </Contenedor>
   )
 }
